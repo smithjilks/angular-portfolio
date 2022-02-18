@@ -209,10 +209,7 @@
 }
 
 
-
-/*potfolio section*/
-
-/* Services Section */
+/* portfolio section */
 
 #portfolio {
   margin: auto;
@@ -321,6 +318,125 @@
     border: 1px solid #007bff;
     color: white;
 }
+
+
+
+/*blog section*/
+
+#blog {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f8f9fa;
+
+}
+
+#blog h2 {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+  font-size: 40px;
+  letter-spacing: -0.5px;
+  line-height: 26px;
+  line-height: 1.2;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+#blog p {
+  margin: 2rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: #8492a6 !important;
+}
+
+#blog .blog-cards-container {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#blog .blog-cards-container mat-card {
+  width: 430px;
+  height: 400px;
+  margin: 2rem 3rem;
+  padding: 0;
+  border-radius: 10px;
+}
+
+#blog .blog-cards-container mat-card img {
+  width: 100%;
+  height: 200px;
+  margin: 0;
+}
+
+#blog .blog-cards-container mat-card mat-card-title {
+  margin: 1rem;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+  color: #161c2d;
+}
+
+
+#blog .blog-cards-container mat-card mat-card-subtitle {
+  margin-left: 1rem;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+
+}
+
+#blog .blog-cards-container mat-card mat-card-content {
+  margin: 0;
+  padding: 0;
+
+}
+
+#blog .blog-cards-container mat-card mat-card-actions {
+  margin: 1rem 0 0 1rem;
+  position: absolute;
+  bottom: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+
+}
+
+#blog .blog-cards-container mat-card mat-card-actions a {
+  display: flex;
+  text-align: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  color: #707070 !important;
+  text-decoration: none;
+
+}
+
+
+#blog .blog-cards-container mat-card mat-card-actions :hover{
+  color: #007bff !important;
+
+}
+
+#blog .blog-cards-container mat-card mat-card-actions a mat-icon {
+  margin-right: 8px;
+
+}
+
+
+
+
 
 
 
@@ -451,4 +567,7 @@ input:empty {
   background-color: #007bff;
 
 }
+
+
+
 
