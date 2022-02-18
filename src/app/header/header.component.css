@@ -60,6 +60,6 @@ span {
   font-family: "Nunito", sans-serif;
 }
 
-.toolbar .nav-item .nav-link:hover, .toolbar .nav-item .nav-link:focus, .toolbar .nav-item .nav-link.active {
+.toolbar .nav-item .nav-link:hover, .toolbar .nav-item .nav-link:focus, .toolbar .nav-item .nav-link .active {
   color: #007bff;
 }
