@@ -65,3 +65,145 @@
 #home aside img {
   width: 100%;
 }
+
+
+/* Services Section */
+
+#services {
+  margin: auto;
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f8f9fa;
+
+}
+
+#services h2 {
+  margin-top: 3rem;
+  font-size: 40px;
+  letter-spacing: -0.5px;
+  line-height: 26px;
+  line-height: 1.2;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+#services p {
+  margin: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: #8492a6 !important;
+}
+
+#services .cards-container {
+  width: 100%;
+  margin: auto;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#services .cards-container mat-card {
+  width: 400px;
+  height: 200px;
+  margin: 1rem;
+  padding: 30px;
+}
+
+#services .cards-container mat-card mat-card-title {
+  margin: 1rem auto;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+
+#services .cards-container mat-card mat-card-subtitle {
+  margin: 1rem auto;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+  font-weight: 500;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+
+}
+#services .cards-container mat-card mat-card-header {
+  height: auto;
+}
+#services .cards-container mat-card mat-card-header img{
+  position: relative;
+  margin-top: -20px;
+  margin-left: -40px;
+}
+
+
+
+
+/* Techstack Section */
+#techstack {
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f8f9fa;
+}
+
+#techstack h2 {
+  margin-top: 5rem;
+  font-size: 40px;
+  letter-spacing: -0.5px;
+  line-height: 26px;
+  line-height: 1.2;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+#techstack p {
+  margin: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: #8492a6 !important;
+}
+
+#techstack .techstack-row {
+  width: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#techstack .skills-container{
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: start;
+}
+
+#techstack .skills-row {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: start;
+}
+
+
+#techstack  mat-card {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
