@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:300,400,600,700&display=swap");
 
-html, body { height: 100%; }
+html, body { height: 100%; scroll-behavior: smooth;}
 
 body {
   margin: 0;

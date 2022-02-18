@@ -70,8 +70,6 @@
 /* Services Section */
 
 #services {
-  margin: auto;
-  margin-top: 5rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -81,7 +79,7 @@
 }
 
 #services h2 {
-  margin-top: 3rem;
+  margin-top: 5rem;
   font-size: 40px;
   letter-spacing: -0.5px;
   line-height: 26px;
@@ -436,10 +434,6 @@
 
 
 
-
-
-
-
 /*Contact section*/
 #contact {
   margin: auto;
@@ -558,7 +552,7 @@ input:empty {
 
 #contact .contact-row form button {
   margin-right: 1rem;
-  width: 20%;
+  width: auto;
   font-family: "Nunito", sans-serif;
   font-style: normal;
   font-weight: 500;
