@@ -19,10 +19,13 @@ span {
 }
 
 .toolbar {
+  position: fixed;
+  top: 0;
+  height: 70px;
   padding: 5px;
-  z-index: 999;
+  z-index: 99;
   padding: 20px 0px;
-  background-color: transparent;
+  background-color: white;
   border: 0;
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
