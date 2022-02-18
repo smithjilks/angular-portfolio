@@ -321,3 +321,134 @@
     border: 1px solid #007bff;
     color: white;
 }
+
+
+
+/*Contact section*/
+#contact {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#contact h2 {
+  margin-top: 5rem;
+  font-size: 40px;
+  letter-spacing: -0.5px;
+  line-height: 26px;
+  line-height: 1.2;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+#contact p {
+  margin: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  color: #8492a6 !important;
+}
+
+#contact .contact-row {
+  width: 80%;
+  margin: 2rem auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#contact .contact-row .contact-item {
+  display: flex;
+  margin: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+
+#contact .contact-item h5 {
+  margin-top: 1rem;
+  font-size: 30px;
+  letter-spacing: -0.5px;
+  line-height: 26px;
+  line-height: 1.2;
+  font-weight: 600;
+  font-family: "Nunito", sans-serif;
+}
+
+#contact .contact-item p {
+  margin: 1rem;
+  font-family: "Nunito", sans-serif;
+  font-size: 18px;
+  color: #8492a6 !important;
+}
+
+#contact .contact-item a {
+  margin-bottom: 1rem;
+  font-size: 18px;
+  font-family: "Nunito", sans-serif;
+  color: #007bff !important;
+  text-decoration: none;
+}
+
+#contact .contact-row form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: flex-end;
+}
+
+#contact .contact-row form .contact-fields-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#contact .contact-row .contact-row-fields {
+  display: flex;
+  margin: 1rem;
+  flex-direction: column;
+  flex: 1;
+}
+
+#contact .contact-row form mat-form-field {
+  width: 100%;
+  margin-top: .5rem;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 10px;
+  color: black;
+
+}
+
+#contact .contact-row form mat-form-field textarea{
+  height: 185px;
+
+}
+
+#contact .contact-row form mat-error {
+  margin-bottom: 1rem;
+}
+
+input:empty {
+  font-size: .8rem;
+  color: #161c2d;
+}
+
+
+#contact .contact-row form button {
+  margin-right: 1rem;
+  width: 20%;
+  font-family: "Nunito", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  border-radius: 10px;
+  color: white;
+  background-color: #007bff;
+
+}
+

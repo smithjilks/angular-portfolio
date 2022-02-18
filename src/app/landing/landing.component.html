@@ -314,3 +314,136 @@
   </div>
 
 </section>
+
+
+
+
+<!--contact section-->
+
+<section id="contact">
+  <h2>Let's Chat</h2>
+
+  <p> Don't hesitate to reach to out...</p>
+
+
+
+  <!--contact row-->
+  <div class="contact-row">
+    <!--contact item-->
+
+    <div class="contact-item">
+      <mat-icon>phone</mat-icon>
+
+      <h5> Phone</h5>
+
+      <p>Leave a text, if urgent call!</p>
+
+      <a href="tel:+254710618227">0710-618-227</a>
+
+    </div>
+
+     <!--contact item-->
+     <div class="contact-item">
+      <mat-icon>email</mat-icon>
+
+      <h5> Email</h5>
+
+      <p>Don't spam, be a hun...</p>
+
+      <a href="mailto:smithjilks@gmail.com">smithjilks@gmail.com</a>
+
+    </div>
+
+     <!--contact item-->
+     <div class="contact-item">
+      <mat-icon>location</mat-icon>
+
+      <h5> Location</h5>
+
+      <p>Nairobi, Kenya</p>
+
+      <a href="https://www.google.com/maps/place/Nairobi/@-1.3032051,36.707307,11z/data=!3m1!4b1!4m5!3m4!1s0x182f1172d84d49a7:0xf7cf0254b297924c!8m2!3d-1.2920659!4d36.8219462">View on Google Map</a>
+
+    </div>
+
+  </div>
+
+  <div class=contact-row>
+
+    <form #email ="ngForm">
+
+      <div class="contact-fields-container">
+        <div class="contact-row-fields">
+          <mat-form-field appearance="outline">
+            <input
+              matInput type="text"
+              name = "firstname"
+              ngModel
+              required
+              placeholder="First Name:"
+              minlength = "3"
+              #firstname = "ngModel">
+
+              <mat-error *ngIf ="firstname.invalid"> Please enter your first name </mat-error>
+
+          </mat-form-field>
+
+
+          <mat-form-field appearance="outline">
+            <input
+              matInput type="email"
+              name = "email"
+              ngModel
+              required
+              placeholder="Your email:"
+              minlength = "3"
+              #email = "ngModel">
+
+              <mat-error *ngIf ="email.invalid"> Please enter your email </mat-error>
+
+          </mat-form-field>
+
+
+          <mat-form-field appearance="outline">
+            <input
+              matInput type="text"
+              name = "subject"
+              ngModel
+              required
+              placeholder="Your Subject:"
+              minlength = "3"
+              #subject = "ngModel">
+
+              <mat-error *ngIf ="subject.invalid"> Please enter a subject for your email </mat-error>
+
+          </mat-form-field>
+
+        </div>
+
+        <div class="contact-row-fields">
+
+          <mat-form-field appearance="outline">
+            <textarea
+              matInput type="text"
+              name = "subject"
+              ngModel
+              required
+              placeholder="Your Message:"
+              minlength = "10"
+              #message = "ngModel"> </textarea>
+
+              <mat-error *ngIf ="message.invalid"> Please enter your email message </mat-error>
+
+          </mat-form-field>
+
+        </div>
+      </div>
+      <button mat-raised-button >
+        Send Message
+        <mat-icon style="margin: .8rem 1rem;">send</mat-icon>
+      </button>
+
+    </form>
+  </div>
+
+</section>
