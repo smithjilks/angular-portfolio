@@ -63,3 +63,55 @@ span {
 .toolbar .nav-item .nav-link:hover, .toolbar .nav-item .nav-link:focus, .toolbar .nav-item .nav-link .active {
   color: #007bff;
 }
+
+
+.menu_items {
+  display: flex;
+  flex-direction: column;
+}
+.menu_items .nav-link {
+  display: flex;
+  align-items: center;
+  color: #343a40;
+  font-size: 13px;
+  background-color: transparent !important;
+  margin:0 8px;
+  padding: .5rem;
+  letter-spacing: 0.5px;
+  line-height: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  transition: all 0.5s;
+  font-family: "Nunito", sans-serif;
+}
+
+.menu_items .nav-link:hover, .menu_items .nav-link:focus, .menu_items .nav-link .active {
+  color: #007bff;
+}
+
+
+#menu_button {
+  display: none;
+}
+
+/* Small screens */
+@media screen and (max-width: 800px) {
+  .toolbar ul {
+    display: none;
+  }
+
+  span button {
+    display: none;
+  }
+
+  #menu_button {
+    float: right;
+    display: block;
+  }
+
+  .toolbar span {
+    padding: 2rem 0;
+    height: 70px;
+  }
+}
+

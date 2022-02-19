@@ -33,4 +33,24 @@
       <a class="nav-link" mat-button href="#contact" routerLinkActive="activelink"> Contact </a>
     </li>
   </ul>
+
+  <button id="menu_button" mat-button [matMenuTriggerFor]="menu">
+    <mat-icon style="color: #007bff;">menu</mat-icon>
+  </button>
+    <mat-menu #menu="matMenu" xPosition="after">
+      <ul class="menu_items">
+        <a class="nav-link" mat-button href="#home" routerLinkActive="activelink"> Home </a>
+
+        <a class="nav-link" mat-button href="#services" routerLinkActive="activelink"> Services </a>
+
+        <a class="nav-link" mat-button href="#techstack" routerLinkActive="activelink"> TechStack </a>
+
+        <a class="nav-link" mat-button href="#portfolio" routerLinkActive="activelink"> Portfolio </a>
+
+        <a class="nav-link" mat-button href="#blog" routerLinkActive="activelink"> Blog </a>
+
+        <a class="nav-link" mat-button href="#contact" routerLinkActive="activelink"> Contact </a>
+
+      </ul>
+    </mat-menu>
 </mat-toolbar>
